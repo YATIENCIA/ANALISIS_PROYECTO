@@ -1,6 +1,9 @@
 #Aqui va el código del QuickSort
-def quickSort(alist):
-   quickSortHelper(alist,0,len(alist)-1)
+from time import time
+def quickSort(arreglo):
+    alist = arreglo[:]
+    quickSortHelper(alist,0,len(alist)-1)
+    return alist
 
 def quickSortHelper(alist,first,last):
    if first<last:
@@ -40,6 +43,11 @@ def partition(alist,first,last):
 
    return rightmark
 
-alist = [54,26,93,17,77,31,44,55,20]
-quickSort(alist)
-print(alist)
+
+
+def OrdenoQuick(arreglo):
+    inicial = time()
+    quickSort(arreglo)
+    final = time()
+    diferencia = final - inicial
+    return diferencia

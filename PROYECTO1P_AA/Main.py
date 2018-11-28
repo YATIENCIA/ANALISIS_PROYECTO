@@ -1,4 +1,5 @@
 print("Inicio de proyecto")
+from ANALISIS_PROYECTO.PROYECTO1P_AA import graficas as graph
 import tkinter as tk # Carga módulo tk (widgets estándar)
 from tkinter import ttk # Carga ttk (para widgets nuevos 8.5+)
 def comando():
@@ -6,62 +7,48 @@ def comando():
 # Define la ventana principal de la aplicación
 
 def accion():
-    print(insertion_option.get())
+    io=insertion_option.get()
+    mo=merge_option.get()
+    qo=quick_option.get()
+    so=stooge_option.get()
+    print("Inserción:",io)
+    print("Merge:",mo)
+    print("Quick:",qo)
+    print("Stooge:",so)
+    print("get", combo.get())
+
+def graficar():
+    print("****************************************************************")
+    io = insertion_option.get()
+    mo = merge_option.get()
+    qo = quick_option.get()
+    so = stooge_option.get()
+    arreglo = [io, mo, qo, so]
+    graph.verificar(arreglo,int(combo.get()))
 
 
 raiz = tk.Tk()
-
-# Define las dimensiones de la ventana, que se ubicará en
-# el centro de la pantalla. Si se omite esta línea la
-# ventana se adaptará a los widgets que se coloquen en
-# ella.
-
-raiz.geometry('300x200') # anchura x altura
-
-# Asigna un color de fondo a la ventana. Si se omite
-# esta línea el fondo será gris
-
+raiz.geometry('300x400') # anchura x altura
 raiz.configure(bg = 'beige')
-
-# Asigna un título a la ventana
-
 raiz.title('Métodos de ordenamiento')
-
-# Define un botón en la parte inferior de la ventana
-# que cuando sea presionado hará que termine el programa.
-# El primer parámetro indica el nombre de la ventana 'raiz'
-# donde se ubicará el botón
 ttk.Label(raiz, text="Escoja los métodos de ordenamiento: ").pack(side=tk.TOP)
-ttk.Button(raiz, text='Salir', command=quit).pack(side=tk.BOTTOM)
-ttk.Button(raiz, text='print check', command=accion).pack(side=tk.BOTTOM)
-#Creeacion de checkbox
 quick_option = tk.BooleanVar()
 ttk.Checkbutton(raiz, text="QuickSort", variable=quick_option).pack(side=tk.TOP)
-
 insertion_option = tk.BooleanVar()
 ttk.Checkbutton(raiz, text="InsertionSort", variable=insertion_option).pack(side=tk.TOP)
-
-
 merge_option = tk.BooleanVar()
 ttk.Checkbutton(raiz, text="MergeSort", variable=merge_option).pack(side=tk.TOP)
-tk.TOP
 stooge_option = tk.BooleanVar()
 ttk.Checkbutton(raiz, text="StoogeSort", variable=stooge_option).pack(side=tk.TOP)
 
+ttk.Label(raiz, text="Escoja la cantidad de datos: ").pack(side=tk.TOP)
 
+combo=ttk.Combobox(raiz, values=("10", "100", "500", "1000"))
+combo.pack(side=tk.TOP)
+combo.set("10")
 
-
-
-
-
-
-
-# Después de definir la ventana principal y un widget botón
-# la siguiente línea hará que cuando se ejecute el programa
-# construya y muestre la ventana, quedando a la espera de
-# que alguna persona interactúe con ella.
-
-# Si la persona presiona sobre el botón Cerrar 'X', o bien,
-# sobre el botón 'Salir' el programa llegará a su fin.
-
+ttk.Button(raiz, text='GRAFICAR', command=graficar).pack(side=tk.TOP)
+ttk.Button(raiz, text='Salir', command=quit).pack(side=tk.BOTTOM)
+ttk.Button(raiz, text='print checks', command=accion).pack(side=tk.TOP)
 raiz.mainloop()
+

@@ -1,4 +1,10 @@
 #Aqui va el código del StoogeSort
+from time import time
+def stoogeSort(alist):
+    arreglo=alist[:]
+    stoogesort(arreglo,0,len(alist)-1)
+    return arreglo
+
 def stoogesort(arr, l, h):
     if l >= h:
         return
@@ -26,7 +32,10 @@ def stoogesort(arr, l, h):
         stoogesort(arr, l, (h - t))
 
 
-alist = [54,26,93,17,77,31,44,55,20]
-n = len(alist)
-stoogesort(alist, 0, n - 1)
-print(alist)
+
+def OrdenoStooge(arreglo):
+    inicial = time()
+    stoogeSort(arreglo)
+    final=time()
+    diferencia=final-inicial
+    return diferencia
