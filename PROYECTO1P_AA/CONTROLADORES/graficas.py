@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt #Libreria que permite graficar
-from SOURCES import InsertionSort as IS, MergeSort as MS, QuickSort as QS, StoogeSort as SS #Importo clases para poder utilizar sus métodos
-from SOURCES import OperacionesArchivo as OA
+from ORDENAMIENTOS import InsertionSort as IS, MergeSort as MS, QuickSort as QS, StoogeSort as SS
+from CONTROLADORES import OperacionesArchivo as OA
+
+
 #El tiempo de graficación de la aplicación es 18 segundos con 500 datos  para todos los algoritmos
 #El tiempo de graficación de la aplicación es 70 segundos con 1000 datos  para todos los algoritmos
 

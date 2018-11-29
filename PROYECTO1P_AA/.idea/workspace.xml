@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0a0b07-3513-4869-ac6f-a57b449fe734" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SOURCES/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SOURCES/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOURCES/OperacionesArchivo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SOURCES/OperacionesArchivo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/CONTROLADORES/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/InsertionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/ORDENAMIENTOS/InsertionSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/ORDENAMIENTOS/MergeSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/OperacionesArchivo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/ORDENAMIENTOS/QuickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/StoogeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/ORDENAMIENTOS/StoogeSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SOURCES/datos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SOURCES/datos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOURCES/graficas.py" beforeDir="false" afterPath="$PROJECT_DIR$/SOURCES/graficas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOURCES/graficas.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SOURCES/resultados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SOURCES/resultados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
@@ -43,14 +49,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5664" />
+          <entry key="py" value="5673" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5664" />
+          <entry key="Python" value="5673" />
         </counts>
       </usages-collector>
     </session>
@@ -58,7 +64,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/MergeSort.py">
+        <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/MergeSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
@@ -67,7 +73,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/InsertionSort.py">
+        <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/InsertionSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
@@ -76,16 +82,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/datos.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1411">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/StoogeSort.py">
+        <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/StoogeSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
               <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
@@ -94,7 +91,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/QuickSort.py">
+        <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/QuickSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="818">
               <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
@@ -102,24 +99,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SOURCES/Main.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTROLADORES/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-203">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
-                <element signature="e#28#65#0" expanded="true" />
-                <marker date="1543455244916" expanded="true" signature="421:692" ph="..." />
+                <element signature="e#0#69#0" expanded="true" />
+                <marker date="1543455442455" expanded="true" signature="408:679" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/graficas.py">
+        <entry file="file://$PROJECT_DIR$/CONTROLADORES/graficas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -127,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOURCES/OperacionesArchivo.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CONTROLADORES/OperacionesArchivo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -162,6 +159,8 @@
         <option value="$PROJECT_DIR$/SOURCES/OperacionesArchivo.py" />
         <option value="$PROJECT_DIR$/SOURCES/graficas.py" />
         <option value="$PROJECT_DIR$/SOURCES/Main.py" />
+        <option value="$PROJECT_DIR$/CONTROLADORES/Main.py" />
+        <option value="$PROJECT_DIR$/CONTROLADORES/OperacionesArchivo.py" />
       </list>
     </option>
   </component>
@@ -184,6 +183,16 @@
             <path>
               <item name="PROYECTO1P_AA" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROYECTO1P_AA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROYECTO1P_AA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PROYECTO1P_AA" type="462c0819:PsiDirectoryNode" />
+              <item name="CONTROLADORES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROYECTO1P_AA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PROYECTO1P_AA" type="462c0819:PsiDirectoryNode" />
+              <item name="ORDENAMIENTOS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PROYECTO1P_AA" type="b2602c69:ProjectViewProjectNode" />
@@ -230,7 +239,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOURCES/Main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Isabel Atiencia\Desktop\Ysabel\ESTUDIOS\5 SEMESTRE\ANÁLISIS DE ALGORITMOS\ANALISIS_PROYECTO\PROYECTO1P_AA\CONTROLADORES\Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +260,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Isabel Atiencia\Desktop\Ysabel\ESTUDIOS\5 SEMESTRE\ANÁLISIS DE ALGORITMOS\ANALISIS_PROYECTO\PROYECTO1P_AA\SOURCES\Main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Isabel Atiencia\Desktop\Ysabel\ESTUDIOS\5 SEMESTRE\ANÁLISIS DE ALGORITMOS\ANALISIS_PROYECTO\PROYECTO1P_AA\CONTROLADORES\Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,7 +281,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOURCES/graficas.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Isabel Atiencia\Desktop\Ysabel\ESTUDIOS\5 SEMESTRE\ANÁLISIS DE ALGORITMOS\ANALISIS_PROYECTO\PROYECTO1P_AA\CONTROLADORES\graficas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,12 +329,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21056548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21056548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,29 +358,8 @@
     <entry file="file://$PROJECT_DIR$/SOURCES/prueba.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/StoogeSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SOURCES/resultados.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/datos.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1411">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/InsertionSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SOURCES/resultados.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -380,45 +368,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/MergeSort.py">
+    <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/MergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/QuickSort.py">
+    <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/QuickSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="818">
           <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/OperacionesArchivo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/graficas.py">
+    <entry file="file://$PROJECT_DIR$/CONTROLADORES/graficas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOURCES/Main.py">
+    <entry file="file://$PROJECT_DIR$/SOURCES/datos.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="-1411">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/InsertionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORDENAMIENTOS/StoogeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLADORES/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#28#65#0" expanded="true" />
-            <marker date="1543455244916" expanded="true" signature="421:692" ph="..." />
+            <element signature="e#0#69#0" expanded="true" />
+            <marker date="1543455442455" expanded="true" signature="408:679" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLADORES/OperacionesArchivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>

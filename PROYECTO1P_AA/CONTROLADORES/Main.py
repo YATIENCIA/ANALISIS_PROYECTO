@@ -1,5 +1,4 @@
-from SOURCES import graficas as graph
-from SOURCES import OperacionesArchivo as OA
+from CONTROLADORES import OperacionesArchivo as OA, graficas as graph
 import tkinter as tk # Carga módulo tk (widgets estándar)
 from tkinter import ttk # Carga ttk (para widgets nuevos 8.5+)
 from tkinter import messagebox
