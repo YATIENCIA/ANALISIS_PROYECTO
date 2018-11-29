@@ -1,7 +1,7 @@
 #Aqui va el código del StoogeSort
 from time import time
 def stoogeSort(alist):
-    arreglo=alist[:]
+    arreglo=alist[:] #Realizo una copia de la lista original para que esta no sea modificada.
     stoogesort(arreglo,0,len(alist)-1)
     return arreglo
 
@@ -32,7 +32,8 @@ def stoogesort(arr, l, h):
         stoogesort(arr, l, (h - t))
 
 
-
+#Método que llama al ordenamiento correspondiente,
+# y toma el tiempo inicial y final para calcular el tiempo de ejecución del proceso dependiendo de un número de datos.
 def OrdenoStooge(arreglo):
     inicial = time()
     stoogeSort(arreglo)

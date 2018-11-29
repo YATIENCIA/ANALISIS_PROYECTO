@@ -1,7 +1,9 @@
 #Aqui va el código del QuickSort
-from time import time
+from time import time #Importo la librería time
+
+#Método de ordenamiento del QuickSort
 def quickSort(arreglo):
-    alist = arreglo[:]
+    alist = arreglo[:] #Realizo una copia de la lista original para que esta no sea modificada.
     quickSortHelper(alist,0,len(alist)-1)
     return alist
 
@@ -44,7 +46,8 @@ def partition(alist,first,last):
    return rightmark
 
 
-
+#Método que llama al ordenamiento correspondiente,
+# y toma el tiempo inicial y final para calcular el tiempo de ejecución del proceso dependiendo de un número de datos.
 def OrdenoQuick(arreglo):
     inicial = time()
     quickSort(arreglo)

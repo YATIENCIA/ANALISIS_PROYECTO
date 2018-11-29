@@ -1,7 +1,7 @@
 #Aqui va el código del MergeSort
 from time import time
 def mergesort(arreglo):
-    alist=arreglo[:]
+    alist=arreglo[:] #Realizo una copia de la lista original para que esta no sea modificada.
     mergeSort(alist)
     return alist
 
@@ -36,7 +36,8 @@ def mergeSort(alist):
             j=j+1
             k=k+1
 
-
+#Método que llama al ordenamiento correspondiente,
+# y toma el tiempo inicial y final para calcular el tiempo de ejecución del proceso dependiendo de un número de datos.
 def OrdenoMerge(arreglo):
    inicial=time()
    mergesort(arreglo)
