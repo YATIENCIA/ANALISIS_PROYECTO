@@ -1,5 +1,5 @@
 from SOURCES import graficas as graph
-
+from SOURCES import OperacionesArchivo as OA
 import tkinter as tk # Carga módulo tk (widgets estándar)
 from tkinter import ttk # Carga ttk (para widgets nuevos 8.5+)
 from tkinter import messagebox
@@ -17,18 +17,18 @@ def retornaArregloBoolean():
 
 #Método utilizado cuando el usuario NO INGRESA un archivo y realiza las gráficas con datos aleatorios
 def DatosAleatorios():
-    graph.CrearDoc()    #Creación del doc con números aleatorios aleatorios llamado datos.txt
+    OA.CrearDoc()    #Creación del doc con números aleatorios aleatorios llamado datos.txt
     arreglo=retornaArregloBoolean()     #Obtengo el arreglo con los datos booleanos
-   # try:
-    if (int(combo.get()) > 1000): #Verifico que la cantidad de datos que ingresa el usuario lo soporte el sistema
-            messagebox.showerror("Error", "¡No puede escoger más de 1000 datos!")
-            combo.set("250")
-    else:
-            graph.verificar(arreglo, int(combo.get()), "datos.txt")     #Grafico usando el archivo generado datos.txt
-   # except:
-    """messagebox.showerror("Error", "¡Datos ingresados inválidos!")
-     v.set("")
-     combo.set("250")"""
+    try:
+        if (int(combo.get()) > 1000): #Verifico que la cantidad de datos que ingresa el usuario lo soporte el sistema
+                messagebox.showerror("Error", "¡No puede escoger más de 1000 datos!")
+                combo.set("250")
+        else:
+                graph.verificar(arreglo, int(combo.get()), "datos.txt")     #Grafico usando el archivo generado datos.txt
+    except:
+        messagebox.showerror("Error", "¡Datos ingresados inválidos!")
+        v.set("")
+        combo.set("250")
 
 
 #Método utilizado cuando el usuario INGRESA un archivo con datos para realizar las gráficas
